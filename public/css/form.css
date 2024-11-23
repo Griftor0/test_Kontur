@@ -1,0 +1,9 @@
+#contactForm {
+    width: 100px;
+}
+
+#contactForm button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
