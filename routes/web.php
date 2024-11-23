@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', [ContactController::class, 'showForm']);
+Route::post('/contacts', [ContactController::class, 'store']);
